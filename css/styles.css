@@ -1,0 +1,229 @@
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-page-color: #ffffff;
+  --first-section-color: #2f303a;
+  --secondary-section-color: #f5f4fa;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+  --header-part-logo: #000000;
+  --hover-hero-btn: #188ce8;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--main-page-color);
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* <------------HEADER-----------> */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-header-part {
+  color: var(--header-part-logo);
+}
+
+.navigation-link {
+  color: currentColor;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+/* <-----------SECTION HERO-------------> */
+
+.hero {
+  background-color: var(--first-section-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-page-color);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.06em;
+  color: var(--main-page-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+
+/* <-----------SECTION ADVANTAGE-------------> */
+
+.advantage-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantage-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* <-----------SECTION ACTIVITY-------------> */
+
+.activity-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* <-----------TEAM-------------> */
+
+.team {
+  background-color: var(--secondary-section-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-worker {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* <-----------FOOTER-------------> */
+
+.footer {
+  background-color: var(--first-section-color);
+}
+
+.logo-footer-part {
+  color: var(--main-page-color);
+}
+
+.footer-address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-address-color);
+}
+
+.footer-address-link.location {
+  color: var(--main-page-color);
+}
+
+/* <-----------PORTFOLIO PAGE-------------> */
+
+.examples-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background: var(--secondary-section-color);
+  border-radius: 4px;
+  border: transparent;
+}
+
+.example-title {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.example-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.current-btn {
+  background-color: var(--accent-color);
+  color: var(--main-page-color);
+}
+
+/* <-----------HOVER FOCUS-----------> */
+.choice-link:hover,
+.choice-link:focus {
+  color: var(--accent-color);
+}
+
+.choice-btn:hover,
+.choice-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--main-page-color);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-hero-btn);
+  cursor: pointer;
+}
